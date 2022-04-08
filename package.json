@@ -1,0 +1,24 @@
+{
+  "name": "Practica-13-EJS",
+  "version": "1.0.0",
+  "description": "Recibir un párametro numêrico desde la ruta /numbers/:id\r En la vista (archivo EJS) determinar si el numero es par/impar\r Si es par, imprimir una lista desordenada con n*2 elementos, \r EJEMPLO: Si el numero recibido en la ruta, es par n=2, imprimiremos n*2=4 elementos\r <ul>\r <li> ES PAR </li\r <li> ES PAR </li>\r <li> ES PAR </li>\r <li> ES PAR </li>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farellano0/Practica-13-EJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farellano0/Practica-13-EJS/issues"
+  },
+  "homepage": "https://github.com/farellano0/Practica-13-EJS#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
