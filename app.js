@@ -14,8 +14,8 @@ app.get('/', function (req, res) {  //Ruta nivel raíz
     res.render('index');
 });
 
-app.get('/number/:id', function (req, res) {
-    res.render('number', { ID: req.params.id})
+app.get('/number/:id', function (req, res) { //Se establece la ruta junto con un id
+    res.render('number', { ID: req.params.id}) //Dentro de las llaves amarillas se define la variable que va a recibir el parámetro
 })
 
 app.get('/person/:id', function (req, res) {
